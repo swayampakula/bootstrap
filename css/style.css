@@ -1,0 +1,90 @@
+h1{
+	font-family: sofia;
+	font-size: 20px;
+}
+
+
+h2 {
+	font-size: 26px;
+	border-bottom: 1px solid #d1d1d1;
+	text-transform: lowercase;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+	text-align: left;
+	}
+
+h3 {
+	font-family: sans-serif;
+	margin-bottom: 15px;
+	text-transform: lowercase;
+}
+
+h6 {
+	font-family: sans-serif;
+	font-size: 30px;
+
+}
+
+a {
+	color: #7e7e7e;
+	text-decoration: none;
+}
+
+a:hover, .selected {
+color: black;
+}
+
+.navbar-header {
+	padding-left: 0px;
+}
+
+#space1, #space2 {
+	padding-left: 42px;
+}
+
+p {
+font-size: 13px;
+line-height: 20px;
+color: #353535;
+
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {e
+      width: 70%;
+      margin: auto;
+}
+
+#myCarousel {
+	margin-top: 70px
+}
+
+
+#footer {
+clear: both;
+border-top: 1px solid #d1d1d1;
+padding-top: 18px;
+margin-top: 50px
+}
+
+#foot {
+font-size: 13px;
+float: left;
+color: #353535;
+}
+
+.icons {
+float: right;
+margin-top: 0;
+}
+
+@media (max-width: 768px) {
+	.carousel-caption {
+		font-size: 16px;
+	}
+	
+	.carousel-caption h6 {
+		font-size: 14px;
+	}
+}
+
